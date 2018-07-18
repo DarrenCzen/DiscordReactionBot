@@ -13,7 +13,6 @@ client.login(TOKEN).then(() => {
     process.exit();
 });
 
-//Looks for emoji and registers a message handler
 function registerListeners() {
     let emoji = '🛒';
     client.on("message", message => {
@@ -28,7 +27,6 @@ function registerListeners() {
     });
 }
 
-//On process exit stuff
 const cleanupFunc = async (code) => {
     await client.destroy();
     process.exit(code);
