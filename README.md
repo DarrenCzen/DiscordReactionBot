@@ -1,7 +1,7 @@
 # DiscordReactionBot
 
 This is a discord bot adapted from https://gist.github.com/Razacx/8fb98ca38a9525df06c74329cb695ce0 for my own personal use.
-Simply insert the authors name (Fighter123) into the keyword variable to have the user get a reaction from the bot when ever the user types.
+Simply insert the authors name (Fighter123) into the keyword variable to have the user get a reaction from the bot whenever the user types.
 
 ### Requirements
 - Node.js
